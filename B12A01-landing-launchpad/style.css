@@ -147,6 +147,7 @@
   display: flex;
   gap: 115px;
   justify-content: center;
+  align-items: center;
 }
 .touch-section > h3 {
   color: rgb(0, 0, 0);
@@ -177,12 +178,12 @@
   border-radius: 10px;
   background: rgb(255, 255, 255);
   color: rgba(0, 0, 0, 0.5);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 150%;
-letter-spacing: 0%;
-text-align: left;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
 }
 .form > label {
   color: rgb(0, 0, 0);
@@ -194,23 +195,68 @@ text-align: left;
   text-align: left;
 }
 #imp {
-    width: 497px;
-height: 135px;
+  width: 497px;
+  height: 135px;
 }
 .form > button {
-    width: 497px;
-height: 62px;
-border-radius: 10px;
-background: rgb(78, 71, 255);
-color: rgb(255, 255, 255);
-font-family: Raleway;
-font-size: 16px;
-font-weight: 700;
-line-height: 150%;
-letter-spacing: 0%;
-text-align: center;
-border: none;
-margin-bottom: 71px;
+  width: 497px;
+  height: 62px;
+  border-radius: 10px;
+  background: rgb(78, 71, 255);
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  border: none;
+  margin-bottom: 71px;
 }
 .form-div {
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 104px;
+  margin-bottom: 104px;
+  gap: 8px;
+}
+.footer > h1 {
+  color: rgb(78, 71, 255);
+  font-family: Inter;
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 121px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.footer > p {
+  color: rgb(137, 135, 161);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.list {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+  color: rgb(137, 135, 161);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.list a {  color: inherit;
+  text-decoration: none;
 }
